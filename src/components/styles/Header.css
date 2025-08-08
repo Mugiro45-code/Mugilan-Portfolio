@@ -132,7 +132,7 @@
 /* Make the hero button more compact on small screens */
 @media (max-width: 576px) {
   .hero-content .btn.btn-compact {
-    padding: 0.4rem 0.8rem;  /* tighter padding */
+    padding: 0.8rem 1.2rem;  /* tighter padding */
     font-size: 0.9rem;       /* slightly smaller text */
     line-height: 1.2;
     width: auto;             /* ensure it doesn’t stretch */
