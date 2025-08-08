@@ -129,6 +129,17 @@
   }
 }
 
+/* Make the hero button more compact on small screens */
+@media (max-width: 576px) {
+  .hero-content .btn.btn-compact {
+    padding: 0.4rem 0.8rem;  /* tighter padding */
+    font-size: 0.9rem;       /* slightly smaller text */
+    line-height: 1.2;
+    width: auto;             /* ensure it doesn’t stretch */
+    white-space: nowrap;     /* keep text on one line */
+  }
+}
+
 .navbar-toggler {
   padding: 0.7rem 1rem;
   font-size: 1.5rem;

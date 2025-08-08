@@ -124,7 +124,7 @@ const Header = () => {
         <p className="lead animate__animated animate__fadeInUp animate__delay-1s">
           Software Engineer - Crafting Elegant Solutions with Code.
         </p>
-        <a href="#portfolio" className="btn btn-primary btn-lg mt-3 shadow animate__animated animate__fadeInUp animate__delay-2s"
+        <a href="#portfolio" className="btn btn-primary btn-lg btn-compact mt-3 shadow animate__animated animate__fadeInUp animate__delay-2s"
           onClick={e => handleNavLinkClick(e, 'portfolio')}
         >
           View My Work
